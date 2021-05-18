@@ -1,8 +1,10 @@
-{ "homepage": "https://danifik07.github.io/portfolio/",
+{ "homepage": "https://danifik07.github.io/portfolio",
     "name": "portfolio-vuejs",
     "version": "0.1.0",
     "private": true,
     "scripts": {
+        "predeploy": "npm run buil",
+        "deploy": "master -d build",
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
         "lint": "vue-cli-service lint"
