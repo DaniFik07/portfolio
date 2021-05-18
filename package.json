@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "predeploy": "npm run buil",
+        "predeploy": "npm run build",
         "deploy": "master -d build",
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
